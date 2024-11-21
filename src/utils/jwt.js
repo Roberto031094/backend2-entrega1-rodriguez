@@ -1,6 +1,5 @@
 import jwt from "jsonwebtoken";
 
-// Usamos una clave secreta desde una variable de entorno (mejor práctica)
 const SECRET_KEY = process.env.JWT_SECRET || "defaultSecret";
 
 // Función que crea el token
